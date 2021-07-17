@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SearchRecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/zzj_income_2" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="我的收支"
+                android:textColor="#3F51B5"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="日期  "
+                    android:gravity="center_vertical"
+                    android:textColor="#111113"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="类型  "
+                    android:gravity="center_vertical"
+                    android:textColor="#FF111113"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spin_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Spinner
+                    android:id="@+id/spin_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btn_search"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="#39DC54"
+                    android:text="搜索"
+                    android:textColor="#FAF9F9"
+                    android:textSize="12sp"
+                    app:backgroundTint="#5E97DA" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="0.5dp"
+            android:background="#D1CDCD"
+            android:layout_gravity="center"
+            android:paddingHorizontal="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="24dp">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="总金额  "
+                android:gravity="center_vertical"
+                android:textColor="#FF111113"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_show"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textColor="#4CAF65"
+                android:textSize="24sp"
+                android:gravity="center_vertical"/>
+
+            <Button
+                android:id="@+id/btn_calc"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="计算"
+                android:textColor="#FAF9F9"
+                android:textSize="12sp"
+                app:backgroundTint="#5E97DA" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="0.5dp"
+            android:background="#D1CDCD"
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"/>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="查询结果  "
+            android:layout_marginTop="20dp"
+            android:textColor="#111113"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="18sp"/>
+
+<!--        <ImageView-->
+<!--            android:layout_width="360dp"-->
+<!--            android:layout_height="0.5dp"-->
+<!--            android:background="#D1CDCD"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:paddingHorizontal="24dp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="序号"
+                android:textColor="#6290c8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="日期"
+                android:textColor="#6290c8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="类型"
+                android:textColor="#6290c8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="金额"
+                android:textColor="#6290c8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="说明"
+                android:textColor="#6290c8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/searchlistview"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="0"
+            android:layout_marginHorizontal="20dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_horizontal"
+        android:paddingVertical="2dp">
+
+        <TextView
+            android:id="@+id/list_id"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_width="90dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/list_type"
+            android:layout_width="70dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/list_money"
+            android:layout_width="70dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/list_state"
+            android:layout_width="90dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>
