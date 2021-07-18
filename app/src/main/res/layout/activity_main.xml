@@ -19,7 +19,7 @@
             android:layout_width="360dp"
             android:layout_height="360dp"
             android:gravity="center"
-            android:background="@drawable/zzj_login_logo"
+            android:background="@drawable/login_logo"
             android:textColor="#fff"
             android:textSize="24dp"
             android:layout_marginTop="-30dp"
@@ -49,7 +49,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/zzj_account" />
+                app:srcCompat="@drawable/account" />
 
             <EditText
                 android:id="@+id/edt_uid"
@@ -75,7 +75,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/zzj_password" />
+                app:srcCompat="@drawable/password" />
 
             <EditText
                 android:id="@+id/edt_upwd"

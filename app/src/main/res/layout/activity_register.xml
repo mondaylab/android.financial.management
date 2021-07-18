@@ -16,7 +16,7 @@
             android:id="@+id/textView10"
             android:layout_width="220dp"
             android:layout_height="220dp"
-            android:background="@drawable/zzj_register_logo"
+            android:background="@drawable/register_logo"
             android:gravity="center"
             android:textColor="#FFEB3B"
             android:layout_marginBottom="20dp"/>

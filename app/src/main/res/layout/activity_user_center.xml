@@ -22,7 +22,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                app:srcCompat="@drawable/zzj_girl"
+                app:srcCompat="@drawable/girl"
                 android:layout_marginHorizontal="30dp"/>
 
             <TextView
@@ -57,7 +57,7 @@
                     android:id="@+id/btn_recordmanage"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/zzj_revenue" />
+                    app:srcCompat="@drawable/revenue" />
 
                 <TextView
                     android:id="@+id/textView17"
@@ -84,7 +84,7 @@
                     android:id="@+id/btn_searchrecord"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/zzj_look" />
+                    app:srcCompat="@drawable/look" />
 
                 <TextView
                     android:id="@+id/textView22"
@@ -119,7 +119,7 @@
                     android:id="@+id/btn_exit"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/zzj_exit" />
+                    app:srcCompat="@drawable/exit" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -147,7 +147,7 @@
                     android:id="@+id/btn_calcmoney"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/zzj_statics" />
+                    app:srcCompat="@drawable/statics" />
 
                 <TextView
                     android:id="@+id/textView23"
